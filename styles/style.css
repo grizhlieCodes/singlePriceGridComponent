@@ -31,6 +31,12 @@ body {
   background: var(--light-gray);
 }
 
+@media screen and (min-width: 980px) {
+  body {
+    padding: 0;
+  }
+}
+
 /* INFO-CARD & SHARED */
 
 .info-card {
@@ -46,13 +52,13 @@ body {
   overflow: hidden;
 }
 
-@media screen and (min-width: 680px){
-    .info-card {
-        max-width: 63.5rem;
-        grid:
-        "community community" max-content
-        "subscription why-us" max-content/ 1fr 1fr;
-    }
+@media screen and (min-width: 680px) {
+  .info-card {
+    max-width: 63.5rem;
+    grid:
+      "community community" max-content
+      "subscription why-us" max-content/ 1fr 1fr;
+  }
 }
 
 .info-card-section {
@@ -63,20 +69,19 @@ body {
   padding: 2.4rem 2.8rem;
 }
 
-@media screen and (min-width: 680px){
-    .info-card-section {
-        padding: 4rem;
-        justify-content: space-between;
-    }
+@media screen and (min-width: 680px) {
+  .info-card-section {
+    padding: 4rem;
+    justify-content: space-between;
+  }
 }
 
 .sub-heading {
-    font-weight: 700;
-    font-size: 1.8rem;
-    letter-spacing: -0.022rem;
-    color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.022rem;
+  color: white;
 }
-
 
 /* END - INFO-CARD & SHARED */
 
@@ -117,68 +122,62 @@ body {
 }
 
 .subscription-heading {
-    margin-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .subscription-price-container {
-    display: flex;
-    gap: 1.1rem;
-    align-items: center;
-    margin-bottom: -1.2rem;
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+  margin-bottom: -1.2rem;
 }
 
-@media screen and (min-width: 680px){
-    .subscription-price-container {
-        margin-bottom: -2.6rem;
-    }
+@media screen and (min-width: 680px) {
+  .subscription-price-container {
+    margin-bottom: -2.6rem;
+  }
 }
 
 .subscription-price-container .price {
-    font-size: 3.2rem;
-    font-weight: 700;
-    color: white;
-    letter-spacing: -0.04rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -0.04rem;
 }
 
 .subscription-price-container .contract-duration {
-    opacity: 0.5;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    letter-spacing: -0.02rem;
-    color: white;
+  opacity: 0.5;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.02rem;
+  color: white;
 }
 
-
 .subscription-info {
-    font-size: 1.6rem;
-    letter-spacing: -0.02rem;
-    line-height: 2.6rem;
-    color: white;
+  font-size: 1.6rem;
+  letter-spacing: -0.02rem;
+  line-height: 2.6rem;
+  color: white;
 }
 
 .subscription-button {
-    font-size: 1.6rem;
-    letter-spacing: -0.02rem;
-    color: white;
-    background: var(--yellow);
-    padding: 1.2rem 1.5rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    transition: background 250ms ease;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  font-size: 1.6rem;
+  letter-spacing: -0.02rem;
+  color: white;
+  background: var(--yellow);
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: background 250ms ease;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
 }
-
 
 .subscription-button:hover {
-    background-color: hsl(56, 85%, 54%, 0.5);
+  background-color: hsl(56, 85%, 54%, 0.5);
 }
 
-
-
 /* END - SUBSCRIPTION */
-
-
 
 /* WHY-US */
 .info-card__why-us {
@@ -187,15 +186,15 @@ body {
 }
 
 .why-us-heading {
-    margin-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .why-us-info li {
-    font-size: 1.4rem;
-    color: white;
-    opacity: 0.75;
-    line-height: 2rem;
-    letter-spacing: -0.017rem;
+  font-size: 1.4rem;
+  color: white;
+  opacity: 0.75;
+  line-height: 2rem;
+  letter-spacing: -0.017rem;
 }
 
 /* END - WHY-US */
